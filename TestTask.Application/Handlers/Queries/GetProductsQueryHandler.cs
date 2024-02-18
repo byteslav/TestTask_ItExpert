@@ -9,7 +9,7 @@ namespace TestTask.Application.Handlers.Queries
     {
         private readonly IProductRepository _productRepository;
 
-        public GetProductsQueryHandler(IProductRepository productRepository, IUnitOfWork unitOfWork)
+        public GetProductsQueryHandler(IProductRepository productRepository)
         {
             _productRepository = productRepository;
         }
