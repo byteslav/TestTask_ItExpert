@@ -1,0 +1,55 @@
+-- Создание таблиц
+CREATE TABLE Clients(
+  	Id bigint,
+  	ClientName nvarchar(200)
+  );
+  
+CREATE TABLE ClientContacts(
+	Id bigint,
+	ClientId bigint,
+	ContactType nvarchar(255),
+	ContactValue nvarchar(255)
+);
+
+-- Заполнение данными
+insert into Clients (id, ClientName) values (1, 'Jacquette');
+insert into Clients (id, ClientName) values (2, 'Matthiew');
+insert into Clients (id, ClientName) values (3, 'Benedicto');
+insert into Clients (id, ClientName) values (4, 'Anetta');
+insert into Clients (id, ClientName) values (5, 'Rhodie');
+insert into Clients (id, ClientName) values (6, 'Birgitta');
+insert into Clients (id, ClientName) values (7, 'Valerie');
+insert into Clients (id, ClientName) values (8, 'Marena');
+insert into Clients (id, ClientName) values (9, 'Mace');
+insert into Clients (id, ClientName) values (10, 'Dagny');
+insert into Clients (id, ClientName) values (11, 'Sheila-kathryn');
+insert into Clients (id, ClientName) values (12, 'Mirabelle');
+insert into Clients (id, ClientName) values (13, 'Beverie');
+insert into Clients (id, ClientName) values (14, 'Albrecht');
+insert into Clients (id, ClientName) values (15, 'Brook');
+insert into Clients (id, ClientName) values (16, 'Theressa');
+insert into Clients (id, ClientName) values (17, 'Monte');
+insert into Clients (id, ClientName) values (18, 'Elias');
+insert into Clients (id, ClientName) values (19, 'Rand');
+insert into Clients (id, ClientName) values (20, 'Farly');
+
+insert into ClientContacts (id, ClientId, ContactType, ContactValue) values (1, 19, 'Phone', '+86 750 368 3054');
+insert into ClientContacts (id, ClientId, ContactType, ContactValue) values (2, 6, 'Phone', '+86 680 842 2205');
+insert into ClientContacts (id, ClientId, ContactType, ContactValue) values (3, 7, 'Phone', '+62 605 250 8727');
+insert into ClientContacts (id, ClientId, ContactType, ContactValue) values (4, 10, 'Phone', '+86 621 592 7287');
+insert into ClientContacts (id, ClientId, ContactType, ContactValue) values (5, 20, 'Phone', '+58 351 129 7405');
+insert into ClientContacts (id, ClientId, ContactType, ContactValue) values (6, 11, 'Phone', '+7 599 558 8035');
+insert into ClientContacts (id, ClientId, ContactType, ContactValue) values (7, 7, 'Phone', '+86 149 740 3694');
+insert into ClientContacts (id, ClientId, ContactType, ContactValue) values (8, 14, 'Phone', '+98 992 559 8978');
+insert into ClientContacts (id, ClientId, ContactType, ContactValue) values (9, 11, 'Phone', '+57 494 165 4315');
+insert into ClientContacts (id, ClientId, ContactType, ContactValue) values (10, 7, 'Phone', '+62 579 653 0217');
+insert into ClientContacts (id, ClientId, ContactType, ContactValue) values (11, 12, 'Email', 'mrichardon0@google.nl');
+insert into ClientContacts (id, ClientId, ContactType, ContactValue) values (12, 18, 'Email', 'ffranceschino1@skype.com');
+insert into ClientContacts (id, ClientId, ContactType, ContactValue) values (13, 6, 'Email', 'tionesco2@senate.gov');
+insert into ClientContacts (id, ClientId, ContactType, ContactValue) values (14, 11, 'Email', 'rpoulsum3@microsoft.com');
+insert into ClientContacts (id, ClientId, ContactType, ContactValue) values (15, 18, 'Email', 'asuthren4@amazon.co.jp');
+insert into ClientContacts (id, ClientId, ContactType, ContactValue) values (16, 16, 'Email', 'vgookey5@seattletimes.com');
+insert into ClientContacts (id, ClientId, ContactType, ContactValue) values (17, 9, 'Email', 'dwilhelmy6@unesco.org');
+insert into ClientContacts (id, ClientId, ContactType, ContactValue) values (18, 2, 'Email', 'lrama7@jigsy.com');
+insert into ClientContacts (id, ClientId, ContactType, ContactValue) values (19, 19, 'Email', 'slamplough8@yellowpages.com');
+insert into ClientContacts (id, ClientId, ContactType, ContactValue) values (20, 19, 'Email', 'dheckle9@wiley.com');

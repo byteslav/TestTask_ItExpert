@@ -1,0 +1,21 @@
+--Задача 2. Пункт 1.
+SELECT
+	ClientName,
+	COUNT(DISTINCT ClientContacts.id) contacts
+FROM
+	Clients
+JOIN
+	ClientContacts ON Clients.Id = ClientContacts.ClientId
+GROUP BY Clients.ClientName
+
+--Задача 2. Пункт 2.
+SELECT
+	ClientName
+FROM
+	Clients
+JOIN
+	ClientContacts ON Clients.Id = ClientContacts.ClientId
+GROUP BY
+	ClientName
+HAVING
+	COUNT(DISTINCT ClientContacts.id) > 2
