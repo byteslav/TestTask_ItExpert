@@ -1,0 +1,13 @@
+-- создание таблицы
+CREATE TABLE Dates
+(
+	Id bigint,
+	Dt date
+);
+
+-- заполнение данных
+INSERT into Dates (Id, Dt) values (1, '2021-01-01');
+INSERT into Dates (Id, Dt) values (1, '2021-01-10');
+INSERT into Dates (Id, Dt) values (1, '2021-01-30');
+INSERT into Dates (Id, Dt) values (2, '2021-01-15');
+INSERT into Dates (Id, Dt) values (2, '2021-01-30');

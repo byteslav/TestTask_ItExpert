@@ -1,0 +1,17 @@
+--Задача 3.
+WITH prep_table as (
+	SELECT
+		*,
+		ROW_NUMBER() OVER(PARTITION BY id ORDER BY dt) as row
+	FROM
+		Dates
+		)
+select * FROM prep_table
+SELECT
+	t1.id,
+	t1.dt as Sd,
+	t2.dt as Ed
+FROM
+	prep_table as t1
+JOIN
+	prep_table as t2 ON t1.id = t2.id AND t1.row + 1 = t2.row
