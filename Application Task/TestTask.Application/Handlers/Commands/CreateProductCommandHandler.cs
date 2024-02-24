@@ -17,7 +17,7 @@ namespace TestTask.Application.Handlers.Commands
 
         public async Task Handle(CreateProductCommand command, CancellationToken cancellationToken)
         {
-            var products = MapFromDictionaryToProducts(command.Data);
+            var products = MapFromDictionaryToProductsList(command.Data);
             var orderedProducts = products.OrderBy(p => p.Code);
 
             _productRepository.AddRange(orderedProducts);
@@ -25,7 +25,7 @@ namespace TestTask.Application.Handlers.Commands
             await _unitOfWork.CompleteAsync();
         }
 
-        private static List<Product> MapFromDictionaryToProducts(IEnumerable<Dictionary<int, string>> dictionaries)
+        private static List<Product> MapFromDictionaryToProductsList(IEnumerable<Dictionary<int, string>> dictionaries)
         {
             var products = new List<Product>();
 
@@ -33,6 +33,7 @@ namespace TestTask.Application.Handlers.Commands
             {
                 var p = dict.First();
                 var product = new Product(p.Key, p.Value);
+
                 products.Add(product);
             }
 

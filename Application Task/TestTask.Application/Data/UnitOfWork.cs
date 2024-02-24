@@ -10,6 +10,7 @@ namespace TestTask.Application.Data
         {
             _context = context;
         }
+
         public void Dispose()
         {
             _context.Dispose();
