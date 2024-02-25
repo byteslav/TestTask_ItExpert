@@ -20,8 +20,13 @@ namespace TestTask.WebApi.Controllers
             _mapper = mapper;
         }
 
-        // GET: api/<ProductsController>
-        [HttpGet]
+        /// <summary>
+        /// Метод получения продуктов с параметрами
+        /// </summary>
+        /// <param name="code">Код продукта</param>
+        /// <param name="value">Название продукта</param>
+        /// <returns>Список продуктов</returns>
+        [HttpGet("get-filtered-data")]
         public async Task<IEnumerable<ProductDto>> Get(int? code, string? value)
         {
             var query = new GetProductsQuery(code, value);
@@ -31,32 +36,16 @@ namespace TestTask.WebApi.Controllers
             return productsToReturn;
         }
 
-        //// GET api/<ProductsController>/5
-        //[HttpGet("{id}")]
-        //public async Task<Product> Get(int id)
-        //{
-        //    var product = await _productRepository.GetById(id);
-        //    return product;
-        //}
-
-        // POST api/<ProductsController>
-        [HttpPost]
+        /// <summary>
+        /// Метод добавления продуктов
+        /// </summary>
+        /// <param name="productsData">Массив продуктов</param>
+        /// <returns></returns>
+        [HttpPost("insert-array")]
         public async Task Post([FromBody] IEnumerable<Dictionary<int, string>> productsData)
         {
             var command = new CreateProductCommand(productsData);
             await _mediator.Send(command);
-        }
-
-        // PUT api/<ProductsController>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
-        }
-
-        // DELETE api/<ProductsController>/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
         }
     }
 }

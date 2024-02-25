@@ -1,0 +1,17 @@
+D:\Mineminemine\C# Projects\Test_task\Application Task\TestTask.UnitTests\bin\Debug\net7.0\TestTask.UnitTests.deps.json
+D:\Mineminemine\C# Projects\Test_task\Application Task\TestTask.UnitTests\bin\Debug\net7.0\TestTask.UnitTests.dll
+D:\Mineminemine\C# Projects\Test_task\Application Task\TestTask.UnitTests\bin\Debug\net7.0\TestTask.UnitTests.pdb
+D:\Mineminemine\C# Projects\Test_task\Application Task\TestTask.UnitTests\bin\Debug\net7.0\TestTask.Application.dll
+D:\Mineminemine\C# Projects\Test_task\Application Task\TestTask.UnitTests\bin\Debug\net7.0\TestTask.Domain.dll
+D:\Mineminemine\C# Projects\Test_task\Application Task\TestTask.UnitTests\bin\Debug\net7.0\TestTask.Application.pdb
+D:\Mineminemine\C# Projects\Test_task\Application Task\TestTask.UnitTests\bin\Debug\net7.0\TestTask.Domain.pdb
+D:\Mineminemine\C# Projects\Test_task\Application Task\TestTask.UnitTests\obj\Debug\net7.0\TestTask.UnitTests.csproj.AssemblyReference.cache
+D:\Mineminemine\C# Projects\Test_task\Application Task\TestTask.UnitTests\obj\Debug\net7.0\TestTask.UnitTests.GeneratedMSBuildEditorConfig.editorconfig
+D:\Mineminemine\C# Projects\Test_task\Application Task\TestTask.UnitTests\obj\Debug\net7.0\TestTask.UnitTests.AssemblyInfoInputs.cache
+D:\Mineminemine\C# Projects\Test_task\Application Task\TestTask.UnitTests\obj\Debug\net7.0\TestTask.UnitTests.AssemblyInfo.cs
+D:\Mineminemine\C# Projects\Test_task\Application Task\TestTask.UnitTests\obj\Debug\net7.0\TestTask.UnitTests.csproj.CoreCompileInputs.cache
+D:\Mineminemine\C# Projects\Test_task\Application Task\TestTask.UnitTests\obj\Debug\net7.0\TestTask.UnitTests.csproj.CopyComplete
+D:\Mineminemine\C# Projects\Test_task\Application Task\TestTask.UnitTests\obj\Debug\net7.0\TestTask.UnitTests.dll
+D:\Mineminemine\C# Projects\Test_task\Application Task\TestTask.UnitTests\obj\Debug\net7.0\refint\TestTask.UnitTests.dll
+D:\Mineminemine\C# Projects\Test_task\Application Task\TestTask.UnitTests\obj\Debug\net7.0\TestTask.UnitTests.pdb
+D:\Mineminemine\C# Projects\Test_task\Application Task\TestTask.UnitTests\obj\Debug\net7.0\ref\TestTask.UnitTests.dll

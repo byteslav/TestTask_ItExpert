@@ -9,6 +9,8 @@ builder.Services.AddControllers();
 builder.Services.AddSwaggerGen();
 builder.Services.AddApplicationServices();
 
+builder.Services.AddCorsExtension(builder.Configuration);
+
 builder.Services.AddAutoMapper(typeof(MappingProfile));
 builder.Services.AddDbContext<ShopContext>(options =>
                 options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
@@ -25,6 +27,10 @@ if (!app.Environment.IsDevelopment())
 {
     app.UseHsts();
 }
+
+app.UseCors(builder.Configuration
+    .GetSection("CorsSettings:PolicyName")
+    .Get<string>());
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();

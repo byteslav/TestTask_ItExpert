@@ -4,7 +4,7 @@ using TestTask.Domain;
 
 namespace TestTask.Application.Handlers.Commands
 {
-    public class CreateProductCommandHandler : IRequestHandler<CreateProductCommand>
+    public sealed class CreateProductCommandHandler : IRequestHandler<CreateProductCommand>
     {
         private readonly IProductRepository _productRepository;
         private readonly IUnitOfWork _unitOfWork;

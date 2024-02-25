@@ -5,7 +5,7 @@ using System.Linq.Expressions;
 
 namespace TestTask.Application.Handlers.Queries
 {
-    public class GetProductsQueryHandler : IRequestHandler<GetProductsQuery, IEnumerable<Product>>
+    public sealed class GetProductsQueryHandler : IRequestHandler<GetProductsQuery, IEnumerable<Product>>
     {
         private readonly IProductRepository _productRepository;
 
