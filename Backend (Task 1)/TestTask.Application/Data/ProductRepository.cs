@@ -14,9 +14,10 @@ namespace TestTask.Application.Data
             _context = context;
         }
 
-        public void AddRange(IEnumerable<Product> products)
+        public async Task AddRangeAsync(IEnumerable<Product> products)
         {
-            _context.Products.AddRange(products);
+            await _context.Products.ExecuteDeleteAsync();
+            await _context.Products.AddRangeAsync(products);
         }
 
         public async Task<IEnumerable<Product>> GetAll(IEnumerable<Expression<Func<Product, bool>>> filters)

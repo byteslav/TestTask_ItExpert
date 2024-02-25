@@ -20,7 +20,7 @@ namespace TestTask.Application.Handlers.Commands
             var products = MapFromDictionaryToProductsList(command.Data);
             var orderedProducts = products.OrderBy(p => p.Code);
 
-            _productRepository.AddRange(orderedProducts);
+            await _productRepository.AddRangeAsync(orderedProducts);
 
             await _unitOfWork.CompleteAsync();
         }

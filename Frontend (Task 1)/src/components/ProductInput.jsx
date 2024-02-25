@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import '../styles/ProductInput.css';
+import { addProduct } from '../api/ProductsApi';
 
 const ProductInput = () => {
   const [products, setProducts] = useState([{ code: '', value: '' }]);
@@ -22,7 +23,8 @@ const ProductInput = () => {
   const handleSubmit = () => {
     const jsonData = products.map(({ code, value }) => ({ [code]: value }));
     console.log(jsonData);
-    // Here I'll send data to the server
+
+    addProduct(jsonData);
 
     setProducts([{ code: '', value: '' }]);
   };

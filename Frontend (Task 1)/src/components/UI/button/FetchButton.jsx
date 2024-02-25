@@ -1,21 +1,42 @@
-import React from 'react';
-import axios from "axios";
+import React, { useState } from 'react';
 import './FetchButton.css';
+import { fetchProducts } from '../../../api/ProductsApi';
+import FilterValue from '../filter/FilterValue';
 
 const FetchButton = ({setProducts}) => {
+  const [filters, setFilters] = useState({});
+  const [validationError, setValidationError] = useState(false);
 
-  const fetchData = async () => {
-      const response = await axios.get("https://localhost:7256/api/Products/get-filtered-data");
-      console.log(response.data);
-      setProducts(response.data);
+  const fetchData = async (filtersArray) => {
+      const products = await fetchProducts(filtersArray);
+      setProducts(products);
+  };
+
+  const handleFilterChange = (key, filterValue) => {
+    setFilters(prevFilters => ({
+      ...prevFilters,
+      [key]: filterValue
+    }));
+  };
+
+  const validateCode = (value) => {
+    const isValid = Number.isInteger(Number(value));
+    setValidationError(!isValid);
+    return isValid;
   };
 
   return (
-    <button className="fetch-button" 
-      onClick={fetchData}
-    >
-      Fetch Data
-    </button>
+    <div className="fetch-button-container">
+      <div className="filter-value-wrapper">
+        <FilterValue label="Value" onChange={(value) => handleFilterChange('value', value)} />
+      </div>
+      <div className="filter-value-wrapper">
+        <FilterValue label="Code" onChange={(value) => handleFilterChange('code', value)} validation={validateCode}/>
+      </div>
+      <button className="fetch-button" onClick={() => fetchData(filters)} disabled={validationError}>
+        Fetch Data
+      </button>
+    </div>
   );
 };
 

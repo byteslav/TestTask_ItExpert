@@ -3,6 +3,7 @@
 }
 
 .product-input-title {
+    margin-top: 20px;
     margin-bottom: 20px;
     text-align: center;
 }
@@ -30,10 +31,18 @@
     cursor: pointer;
 }
 
-.add-product-button,
-.submit-button {
+.add-product-button {
     padding: 8px 12px;
     background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submit-button {
+    padding: 8px 12px;
+    background-color: #00ff6e;
     color: white;
     border: none;
     border-radius: 4px;
