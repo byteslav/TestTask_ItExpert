@@ -1,0 +1,33 @@
+D:\Mineminemine\C# Projects\Test_task\TestTask.Domain\bin\Debug\net7.0\TestTask.Domain.deps.json
+D:\Mineminemine\C# Projects\Test_task\TestTask.Domain\bin\Debug\net7.0\TestTask.Domain.dll
+D:\Mineminemine\C# Projects\Test_task\TestTask.Domain\bin\Debug\net7.0\TestTask.Domain.pdb
+D:\Mineminemine\C# Projects\Test_task\TestTask.Domain\obj\Debug\net7.0\TestTask.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Mineminemine\C# Projects\Test_task\TestTask.Domain\obj\Debug\net7.0\TestTask.Domain.AssemblyInfoInputs.cache
+D:\Mineminemine\C# Projects\Test_task\TestTask.Domain\obj\Debug\net7.0\TestTask.Domain.AssemblyInfo.cs
+D:\Mineminemine\C# Projects\Test_task\TestTask.Domain\obj\Debug\net7.0\TestTask.Domain.csproj.CoreCompileInputs.cache
+D:\Mineminemine\C# Projects\Test_task\TestTask.Domain\obj\Debug\net7.0\TestTask.Domain.dll
+D:\Mineminemine\C# Projects\Test_task\TestTask.Domain\obj\Debug\net7.0\refint\TestTask.Domain.dll
+D:\Mineminemine\C# Projects\Test_task\TestTask.Domain\obj\Debug\net7.0\TestTask.Domain.pdb
+D:\Mineminemine\C# Projects\Test_task\TestTask.Domain\obj\Debug\net7.0\ref\TestTask.Domain.dll
+D:\Mineminemine\C# Projects\Test_task\Application Task\TestTask.Domain\bin\Debug\net7.0\TestTask.Domain.deps.json
+D:\Mineminemine\C# Projects\Test_task\Application Task\TestTask.Domain\bin\Debug\net7.0\TestTask.Domain.dll
+D:\Mineminemine\C# Projects\Test_task\Application Task\TestTask.Domain\bin\Debug\net7.0\TestTask.Domain.pdb
+D:\Mineminemine\C# Projects\Test_task\Application Task\TestTask.Domain\obj\Debug\net7.0\TestTask.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Mineminemine\C# Projects\Test_task\Application Task\TestTask.Domain\obj\Debug\net7.0\TestTask.Domain.AssemblyInfoInputs.cache
+D:\Mineminemine\C# Projects\Test_task\Application Task\TestTask.Domain\obj\Debug\net7.0\TestTask.Domain.AssemblyInfo.cs
+D:\Mineminemine\C# Projects\Test_task\Application Task\TestTask.Domain\obj\Debug\net7.0\TestTask.Domain.csproj.CoreCompileInputs.cache
+D:\Mineminemine\C# Projects\Test_task\Application Task\TestTask.Domain\obj\Debug\net7.0\TestTask.Domain.dll
+D:\Mineminemine\C# Projects\Test_task\Application Task\TestTask.Domain\obj\Debug\net7.0\refint\TestTask.Domain.dll
+D:\Mineminemine\C# Projects\Test_task\Application Task\TestTask.Domain\obj\Debug\net7.0\TestTask.Domain.pdb
+D:\Mineminemine\C# Projects\Test_task\Application Task\TestTask.Domain\obj\Debug\net7.0\ref\TestTask.Domain.dll
+D:\Mineminemine\C# Projects\Test_task\Backend (Task 1)\TestTask.Domain\bin\Debug\net7.0\TestTask.Domain.deps.json
+D:\Mineminemine\C# Projects\Test_task\Backend (Task 1)\TestTask.Domain\bin\Debug\net7.0\TestTask.Domain.dll
+D:\Mineminemine\C# Projects\Test_task\Backend (Task 1)\TestTask.Domain\bin\Debug\net7.0\TestTask.Domain.pdb
+D:\Mineminemine\C# Projects\Test_task\Backend (Task 1)\TestTask.Domain\obj\Debug\net7.0\TestTask.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Mineminemine\C# Projects\Test_task\Backend (Task 1)\TestTask.Domain\obj\Debug\net7.0\TestTask.Domain.AssemblyInfoInputs.cache
+D:\Mineminemine\C# Projects\Test_task\Backend (Task 1)\TestTask.Domain\obj\Debug\net7.0\TestTask.Domain.AssemblyInfo.cs
+D:\Mineminemine\C# Projects\Test_task\Backend (Task 1)\TestTask.Domain\obj\Debug\net7.0\TestTask.Domain.csproj.CoreCompileInputs.cache
+D:\Mineminemine\C# Projects\Test_task\Backend (Task 1)\TestTask.Domain\obj\Debug\net7.0\TestTask.Domain.dll
+D:\Mineminemine\C# Projects\Test_task\Backend (Task 1)\TestTask.Domain\obj\Debug\net7.0\refint\TestTask.Domain.dll
+D:\Mineminemine\C# Projects\Test_task\Backend (Task 1)\TestTask.Domain\obj\Debug\net7.0\TestTask.Domain.pdb
+D:\Mineminemine\C# Projects\Test_task\Backend (Task 1)\TestTask.Domain\obj\Debug\net7.0\ref\TestTask.Domain.dll
