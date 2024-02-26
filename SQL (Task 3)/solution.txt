@@ -2,11 +2,10 @@
 WITH prep_table as (
 	SELECT
 		*,
-		ROW_NUMBER() OVER(PARTITION BY id ORDER BY dt) as row
+		ROW_NUMBER() OVER(PARTITION BY	id ORDER BY dt) as row
 	FROM
 		Dates
 		)
-select * FROM prep_table
 SELECT
 	t1.id,
 	t1.dt as Sd,
