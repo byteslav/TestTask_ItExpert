@@ -20,7 +20,7 @@ namespace TestTask.Application.Data
             await _context.Products.AddRangeAsync(products);
         }
 
-        public async Task<IEnumerable<Product>> GetAll(IEnumerable<Expression<Func<Product, bool>>> filters)
+        public async Task<IEnumerable<Product>> GetAllAsync(IEnumerable<Expression<Func<Product, bool>>> filters)
         {
             IQueryable<Product> products = _context
                 .Products

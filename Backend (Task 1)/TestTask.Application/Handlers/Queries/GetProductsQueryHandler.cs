@@ -21,7 +21,7 @@ namespace TestTask.Application.Handlers.Queries
             if (query.Code.HasValue) filters.Add(p => p.Code == query.Code);
             if (!string.IsNullOrEmpty(query.Value)) filters.Add(p => p.Value == query.Value);
 
-            var products = await _productRepository.GetAll(filters);
+            var products = await _productRepository.GetAllAsync(filters);
             return products;
         }
     }

@@ -10,6 +10,7 @@
 - MediatR
 - PostgreSQL
 - Docker Compose
+- XUnit
 
 ## API
 

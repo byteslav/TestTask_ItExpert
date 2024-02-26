@@ -6,6 +6,6 @@ namespace TestTask.Domain
     public interface IProductRepository
     {
         Task AddRangeAsync(IEnumerable<Product> products);
-        Task<IEnumerable<Product>> GetAll(IEnumerable<Expression<Func<Product, bool>>> filters);
+        Task<IEnumerable<Product>> GetAllAsync(IEnumerable<Expression<Func<Product, bool>>> filters);
     }
 }
